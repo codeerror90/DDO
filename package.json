@@ -1,5 +1,5 @@
 {
-    "name": "lolibot-md",
+    "name": "ℌ𝔢𝔩𝔞𝔅𝔬𝔱",
     "version": "1.2.5",
     "description": "WhatsApp Bot",
     "main": "index.js",
@@ -26,9 +26,9 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/FG98F/dylux-fg",
+    "homepage": "https://github.com/",
     "author": {
-        "name": "g4tito"
+        "name": "ℌ𝔢𝔯𝔪𝔢𝔰"
     },
     "repository": {
         "type": "git",
