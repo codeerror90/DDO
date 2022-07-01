@@ -54,7 +54,7 @@ const defaultMenu = {
 ₊˚⌗ > *Licencia* : %license
 
 
-Lolita bot remastered by *%wasp*
+Helabot remastered by *%wasp*
 
 Ժ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴ ╴
 
@@ -170,9 +170,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     
   //const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './src/avatar_contact.png')
   //const pp = await (await fetch('https://i.ibb.co/qMG1JPY/fg.jpg')).buffer()
-  //await conn.sendButton(m.chat, text.trim(), 'Creɑted by gɑtito ⾕', imgmenu, [['Info 🧃', '.ping'], ['Creador 🍭', '.owner']], false, { quoted: m, contextInfo: { mentions: conn.parseMention(text.trim()), externalAdReply: { showAdAttribution: true, mediaType: 'VIDEO', mediaUrl: '', title: '作成されたボット', body: 'By gɑtito ⾕', thumbnail: miniurl, sourceUrl: 'https://chat.whatsapp.com/ELn6Ck7InoP6UmA3QiQsgo' }}})
+  //await conn.sendButton(m.chat, text.trim(), 'Creɑted by ℌ𝔢𝔯𝔪𝔢𝔰', imgmenu, [['Info 🧃', '.ping'], ['Creador 🍭', '.owner']], false, { quoted: m, contextInfo: { mentions: conn.parseMention(text.trim()), externalAdReply: { showAdAttribution: true, mediaType: 'VIDEO', mediaUrl: '', title: '作成されたボット', body: 'By ℌ𝔢𝔯𝔪𝔢𝔰 ⾕', thumbnail: miniurl, sourceUrl: 'https://chat.whatsapp.com/ELn6Ck7InoUmA3QiQsgo' }}})
   const buttons = [ { buttonId: `.info`, buttonText: { displayText: 'Info 🧃' }, type: 1 }, { buttonId: `.creador`, buttonText: { displayText: 'Creador 🍭' }, type: 1 }, ]
-  let buttonMessage = { "document": { url: "https://wa.me/51940617554" }, "fileName": '𝕷𝖔𝖑𝖎𝖇𝖔𝖙 - 𝕺𝖋𝖎𝖈𝖎𝖆𝖑™.⁖⃟•᭄', "mimetype": 'application/vnd.ms-excel', "jpegThumbnail": false, "caption": text.trim(), "fileLength": '99999999999999', "mentions": [m.sender, '0@s.whatsapp.net'], "footer": 'By gɑtito ⾕', "buttons": buttons, "headerType": 4, contextInfo: { "mentionedJid": [m.sender, '0@s.whatsapp.net'], "externalAdReply": { "showAdAttribution": true, "title": '作成されたボット — 尼僧', "mediaType": 2, "previewType": "VIDEO", "thumbnail": imgmenu, "mediaUrl": 'https://youtu.be/jeXHB0IIzCM', "sourceUrl": 'https://chat.whatsapp.com/ELn6Ck7InoP6UmA3QiQsgo' }}} 
+  let buttonMessage = { "document": { url: "https://wa.me/5218331898686" }, "fileName": 'ℌ𝔢𝔩𝔞𝔅𝔬 𝔱- 𝔒𝔣𝔦𝔠𝔦𝔞𝔩™.⁖⃟•᭄', "mimetype": 'application/vnd.ms-excel', "jpegThumbnail": false, "caption": text.trim(), "fileLength": '99999999999999', "mentions": [m.sender, '0@s.whatsapp.net'], "footer": 'By ℌ𝔢𝔯𝔪𝔢𝔰', "buttons": buttons, "headerType": 4, contextInfo: { "mentionedJid": [m.sender, '0@s.whatsapp.net'], "externalAdReply": { "showAdAttribution": true, "title": '作成されたボット — 尼僧', "mediaType": 2, "previewType": "VIDEO", "thumbnail": imgmenu, "mediaUrl": 'https://youtu.be/jeXHB0IIzCM', "sourceUrl": 'https://chat.whatsapp.com/ELn6Ck7InoP6UmA3iQgo' }}} 
   conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 
   } catch (e) {
