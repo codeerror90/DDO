@@ -21,7 +21,7 @@ say('WhatsApp Bot', {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-say(`'${name}' By gatito`, {
+say(`'${name}' By Hermes`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
