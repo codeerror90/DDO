@@ -4,15 +4,13 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['51940617554', '「gatitoツ」', true], 
-  ['5356588048'], 
-  ['5493885839638'], 
-  ['573125484672'] 
-  
+  ['5218331898686', '「gatitoツ」', true], 
+  ['5218333659697'] 
+ 
 ] //Numeros de owner 
 
 global.mods = [] // Moderadores
-global.prems = ['50489079501', '5219631769130', '573125484672']  // El usuario Premium tiene diamantes ilimitado
+global.prems = ['5218331898686', '5218333659697']  // El usuario Premium tiene diamantes ilimitado
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -35,15 +33,15 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'Lolibot - OFC'
-global.author = '💌 Lobita & Gatito 💫'
+global.packname = 'HERMES - OFC'
+global.author = 'Dioses del Olimphus 💫'
 
 global.wait = '*↻ Esperɑ soy lentɑ. . .*'
 global.error = '*☓ Ocurrió un error inesperado*'
 
-global.igfg = '\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98._\n' 
-global.fgsc = 'https://github.com/FG98F/dylux-fg' 
-global.fgyt = 'https://youtube.com/fg98f'
+global.igfg = '\n▢ Sígueme en Instagram\nhttps://www.instagram.com\n' 
+global.fgsc = 'https://github.com/' 
+global.fgyt = 'https://youtube.com/'
 
 global.multiplier = 69 // Cuanto más alto, más difícil subir de nivel
 
